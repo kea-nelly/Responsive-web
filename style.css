@@ -101,3 +101,28 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+@media (max-width: 240px) {
+  .intro {
+    margin-top: 30px;
+  }
+  .email-link {
+    font-size: 12px;
+  }
+
+  .img-fluid {
+    display: none;
+  }
+}
+#heading {
+  margin-top: 50px;
+}
+.primary-link {
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 399px) {
+  .email-link {
+    font-size: 15px;
+  }
+}
